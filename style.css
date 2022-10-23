@@ -217,110 +217,112 @@ a {
     background-color: #111;
     border-radius: 3px;
 }
-
-
-
-
-/*
-
-* {
-    text-decoration: none;
-}
-
-main {
-    padding-top: 100px;
-}
-header {
-    position:fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color:#fff;
-    width: 100%;
-    height: 100px;
-}
-
-header .header-brand {
-    font-family: catamaran;
-    font-size: 24px;
-    color: #111;
-    font-weight: 900;
-    text-transform: uppercase;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-}
-
-header nav ul {
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
-
-}
-
-header nav ul li {
-    display: inline-block;
-    float: left;
-    list-style: none;
-    padding: 0px 16px;
-}
-
-header nav ul a {
-    font-family: catamaran;
-    font-size: 16px;
-    color: #111;
-    text-transform: uppercase;  
-}
-
-header .header-cases {
-    display: none;
-}
-*/
-
-@media only screen and (min-width: 1000px){
-    header .header-brand {
-        margin: 31px 0;
-        text-align: left;
-        padding: 0px 20px 0px 40px;
-        border-right: 3px solid #111;
-        float: left;
-        line-height: 38px;
+/* responsive navabar*/
+@media all and (min-width: 700px){
+    nav {
+        position:fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+    }
+    .menu{
+        justify-content: center;
     }
 
-    header nav ul {
-        margin: 20px 0px 0px 20px;
-        float: left;
-    
-    }
-    
-    header nav ul a { 
-        line-height: 60px;
-        text-transform: uppercase;
+    .logo{
+        flex: 1;
     }
 
-    header .header-cases {
-       display: block;
-       float: right;
-       font-family: catamaran;
-       font-size: 16px;
-       color: #111;
-       text-transform: uppercase; 
-       line-height: 38px; 
-       border: 1px solid #111;
-       margin-top: 30px;
-       margin-right: 40px;
-       padding: 0 20px;
-       
-
+    .item.button{
+        width: auto;
+        order: 1;
+        display: block;
     }
+
+    .toggle{
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+
+    .menu li.button a{
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+
+    .button a{
+        background: #0080ff;
+        border: 1px royalblue solid;
+    }
+
+    .button.secondary{
+        border: 0;
+    }
+
+    .button.secondary a{
+        background: transparent;
+        border: 1px #0080ff solid;
+    }
+  
+    .button a:hover {
+        text-decoration: none;
+    }
+
+    .button:not(.secondary) a:hover {
+        background: royalblue;
+        border-color: darkblue;
+    }
+
+}
+
+
+@media all and (min-width: 960px){
+    .menu{
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
+
+    .logo{
+        order: 0;
+    }
+
+    .item {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+    }
+
+    .button{
+        order: 2;
+    }
+
+    .submenu-active .submenu{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: #111;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .submenu-active {
+        border-radius: 0;
+    }
+
 }
   
 /*index styleing */
 .index-banner {
     width: 100%;
     height: calc (100vh - 100px);
-    background-image: url(images/spartans-fight.gif);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -491,7 +493,7 @@ margin-bottom: 20px;
 /*footer*/
 
 footer {
-    width: calc(100% - 80px);
+    width: calc(100%);
     padding: 40px 40px;
     background-color: #111;
     margin-top: 20px;
