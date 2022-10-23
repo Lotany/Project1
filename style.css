@@ -117,12 +117,16 @@ body {
 }
 
 nav {
-    background: #222;
-    padding: 0 15px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
 }
 
 a {
-    color: white;
+    color: rgb(55, 5, 237);
     text-decoration: none;
 }
 
@@ -132,6 +136,8 @@ a {
 
 .logo {
     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
     padding: 7.5px 10px 7.5px 0;
 }
 
@@ -205,7 +211,7 @@ a {
     line-height: 16px;
     font-weight: 900;
     content: "\f078";
-    color: white;
+    color: rgb(55, 5, 237);
     padding-left: 5px;
 }
 
@@ -214,18 +220,18 @@ a {
 }
 
 .submenu-active {
-    background-color: #111;
+    background-color: rgb(189, 162, 162);
     border-radius: 3px;
 }
-/* responsive navabar*/
+
+/*responsive */
+
+/* responsive navabar tablet*/
 @media all and (min-width: 700px){
     nav {
         position:fixed;
         top: 0;
-        right: 0;
-        left: 0;
         width: 100%;
-        height: 100px;
     }
     .menu{
         justify-content: center;
@@ -320,9 +326,10 @@ a {
   
 /*index styleing */
 .index-banner {
+    margin-top: 65px;
     width: 100%;
     height: calc (100vh - 100px);
-    background-image: url();
+    background-image: url(images/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

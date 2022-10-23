@@ -11,20 +11,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     </head>
     <body> 
-
-        <!--
-        <header>
-            <a href="index.html" class="header-brand">Able Kilinda</a>
-            <nav>
-                <ul>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <a href="cases.html" class="header-cases">Projects</a>
-            </nav>
-        </header>
-        -->
       <nav>
         <ul class="menu">
             <li class="logo">
