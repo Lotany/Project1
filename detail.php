@@ -5,7 +5,7 @@
             <section class="case-vid">
                 <div class="wrapper">
                     <h2>Project 1</h2>
-          <video src="" autoplay poster="images/banner8.jpg" controls></video>  
+          <video src="" autoplay poster="" controls></video>  
           <!--  <img src="images/spartans-what-is-your-profession-300.gif" alt="300 spartans"> -->
            
           <article>
