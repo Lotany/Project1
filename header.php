@@ -31,21 +31,7 @@
                     <li class="subitem"><a href="#">Repair & Maintenance</a></li>
                    </ul>
             </li>
-            <li class="item has-submenu">
-                <a tabindex="0">Plans</a>
-                <ul class="submenu">
-                    <li class="subitem">
-                        <a href="#">Freelancer</a>
-                    </li>
-                    <li class="subitem">
-                        <a href="#">Startup</a>
-                    </li>
-                </ul>
-            </li>
 
-             <li class="item">
-               <a href="#">Blog</a>
-             </li>
 
              <li class="item">
                 <a href="#">Contact</a>

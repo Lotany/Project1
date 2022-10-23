@@ -64,13 +64,11 @@
   <p><span >Rebecca Mariam.</span> Front-end Developer.</p>
   <p>No one is better than Lotan when it comes to back-end programming</p>
 </div>
-
-    </section>
-
-
-    <div class="contact">
+<h2>Contact Me</h2>
+<div class="contact" id="contact-me-id">
+    
   <div style="text-align:center">
-    <h2>Contact Me</h2>
+ 
     <p>Swing by for a cup of coffee, or leave me a message:</p>
   </div>
   <div class="row">
@@ -96,6 +94,10 @@
     </div>
   </div>
 </div>
+    </section>
+
+
+
 
 
 </div>
