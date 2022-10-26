@@ -1,6 +1,11 @@
 
 
-   <main>
+
+
+
+
+   <div class="wrap-content">
+      <h1>Login</h1>
       <?php
          if (isset($_SESSION['userId'])){
             echo "<p>You are logged in!</p>";
@@ -27,7 +32,7 @@
                         }      
                 ?>
  
-   </main>
+ </div>
 
 <?php
  require 'footer.php';

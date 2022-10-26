@@ -2,8 +2,8 @@
  require 'header.php';
 ?>
 
-<section class="index-banner">
-</section>
+<div class="wrap-content">
+
             <h1>Signup</h1>
             
             <!--display an error code-->
@@ -29,6 +29,8 @@
             }
 
             ?>
+            <div class="container-fom
+            ">
             <form action="backend/signup-inc.php" method="post">
                 <input type="text" name="uid" placeholder="Username">
                 <input type="email" name="mail" placeholder="Email">
@@ -36,6 +38,7 @@
                 <input type="password" name="pwd-repeat" placeholder="Repeat Password">
                 <button type="submit" name="signup-submit">Signup</button>
             </form>
+            </div>
     </div>
 
 

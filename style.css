@@ -224,6 +224,13 @@ a {
     border-radius: 3px;
 }
 
+.wrap-content {
+    padding-top: 80px;
+    float: right;
+    width: 20%;
+}
+
+
 /*responsive */
 
 /* responsive navabar tablet*/
@@ -336,6 +343,39 @@ a {
     display: table;
 }
 
+/*styling login page*/
+.wrap-content{
+    margin-top: 5px;
+    width: 100%;
+    background-size: cover;
+    display: table;
+}
+
+.wrap-content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrap-content form {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+
+}
+input [type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+}
+.container-fom {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*end here*/
+
 .vertical-center {
     display: table-cell;
     vertical-align: middle;
@@ -420,6 +460,7 @@ a {
     .index-links div h3 {
         line-height: 200px;
     }
+
 }
 
 /* Style the container with a rounded border, grey background and some padding and margin */
