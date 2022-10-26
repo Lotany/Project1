@@ -1,7 +1,7 @@
 <?php
   session_start();
 ?>
-<?php include 'backend/dbConnect.php'; ?>
+<?php include 'includes/dbConnect.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,16 +16,16 @@
       <nav>
         <ul class="menu">
             <li class="logo">
-                <a href="index.php">Able Kilinda</a>
+                <a href="dashboard.php">Admin Area</a>
             </li>
             <li class="item">
-                <a href="#">Home</a>
+                <a href="#">POSTS</a>
             </li>
             <li class="item">
                 <a href="#">About</a>
             </li>
             <li class="item has-submenu">
-                <a tabindex="0">Services</a>
+                <a tabindex="0">MESSAGES</a>
                    <ul class="submenu">
                     <li class="subitem"><a href="#">Development</a></li>
                     <li class="subitem"><a href="#">Design</a></li>
@@ -40,11 +40,7 @@
               </li>
 
               <li class="item button">
-                <a href="login.php">Log In</a>
-              </li>
-
-              <li class="item button secondary">
-                <a href="signup.php">Sign Up</a>
+                <a href="includes/logout-inc.php">Log Out</a>
               </li>
 
               <li class="toggle">
