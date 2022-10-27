@@ -13,31 +13,31 @@
    $passwordRepeat = $_POST['pwd-repeat'];
 //error handler checking if the texx boxes are empty
    if(empty($username) || empty($email) || empty($password) || empty($passwordRepeat)){
-    header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=".$email);
+    header("Location: ../index.php?error=emptyfields&uid=".$username."&mail=".$email);
     exit();
    }
 
    //check valid email and a valid username
    elseif(!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/", $username)){
-    header("Location: ../signup.php?error=invalidmailuid");
+    header("Location: ../index.php?error=invalidmailuid");
     exit();
    }
 
    //check if email is valid
    elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-    header("Location: ../signup.php?error=invalidmail&uid=".$username);
+    header("Location: ../index.php?error=invalidmail&uid=".$username);
     exit();
    }
    
    //check for valid chracters
    elseif(!preg_match("/^[a-zA-Z0-9]*$/", $username)){
-    header("Location: ../signup.php?error=invaliduid&mail=".$email);
+    header("Location: ../index.php?error=invaliduid&mail=".$email);
     exit();
    }
 
    //check if passwords match
    elseif($password !== $passwordRepeat){
-    header("Location: ../signup.php?error=passwordcheck&uid=".$username."&mail".$email);
+    header("Location: ../index.php?error=passwordcheck&uid=".$username."&mail".$email);
     exit();
    }
    else{
@@ -47,7 +47,7 @@
 
     //check if it works
     if(!mysqli_stmt_prepare($stmt, $sql)){
-        header("Location: ../signup.php?error=sqlerror"); 
+        header("Location: ../index.php?error=sqlerror"); 
          exit();
     }
     else{
@@ -56,7 +56,7 @@
         mysqli_stmt_store_result($stmt);
         $resultCheck = mysqli_stmt_num_rows($stmt);
         if ($resultCheck>0){
-            header("Location: ../signup.php?error=usernametaken&mail".$email);
+            header("Location: ../index.php?error=usernametaken&mail".$email);
             exit();
         }
 
@@ -66,7 +66,7 @@
             $stmt = mysqli_stmt_init($conn);
             //check the stmt
             if (!mysqli_stmt_prepare($stmt, $sql)){
-                header("Location: ../signup.php?error=sqlerror"); 
+                header("Location: ../index.php?error=sqlerror"); 
                 exit();
             }
             else {
@@ -74,7 +74,7 @@
                 $hashedpwd = password_hash($password, PASSWORD_DEFAULT);
                 mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedpwd);
                 mysqli_stmt_execute($stmt);
-                header("Location: ../signup.php?signup=success");
+                header("Location: ../index.php?signup=success");
                 exit();
             }
         }
@@ -86,6 +86,6 @@
 
  //send users back to index page if they access signup page
  else{
-    header("Location: ../signup.php");
+    header("Location: ../index.php");
                 exit();
  }

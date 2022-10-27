@@ -6,29 +6,7 @@
 
             <h1>Signup</h1>
             
-            <!--display an error code-->
-            <?php
-            if (isset($_GET['error'])){
-                if($_GET['error'] == "emptyfields"){
-                    echo '<p>Fill in all the fields!</p>';
-                }
-                elseif($_GET['error'] == "invalidmailuid"){
-                    echo '<p>Invalid Email Address!</p>';
-                }
-                elseif($_GET['error'] == "invalidmail"){
-                    echo '<p>Invalid Email!</p>';
-                }
-                elseif($_GET['error'] == "usernametaken"){
-                    echo '<p>Username has already been taken!</p>';
-                }
-                
-            } 
-             elseif($_GET['signup'] == "success"){
-                echo '<p>Registration successfull!</p>';
 
-            }
-
-            ?>
             <div class="container-fom
             ">
             <form action="backend/signup-inc.php" method="post">

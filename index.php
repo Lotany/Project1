@@ -5,13 +5,38 @@
         <section class="index-banner">
             <div class="vertical-center">
                 <h2>I AM A FREELANCE SOFTWARE<br>DEVELOPER</h2>
-                <h1>With speciality in back-end development, functionality and ux design</h1>
+                <h1>With speciality in back-end development and functionality</h1>
             </div>
         </section>
     <div class="wrapper">
 
 
 <?php require 'sig-log.php'?>
+
+   
+            <!--display an error code-->
+            <?php
+            if (isset($_GET['error'])){
+                if($_GET['error'] == "emptyfields"){
+                    echo '<p>Fill in all the fields!</p>';
+                }
+                elseif($_GET['error'] == "invalidmailuid"){
+                    echo '<p>Invalid Email Address!</p>';
+                }
+                elseif($_GET['error'] == "invalidmail"){
+                    echo '<p>Invalid Email!</p>';
+                }
+                elseif($_GET['error'] == "usernametaken"){
+                    echo '<p>Username has already been taken!</p>';
+                }
+                
+            } 
+             elseif($_GET['signup'] == "success"){
+                echo '<p>Registration successfull!</p>';
+
+            }
+
+            ?>
 
 
     <section class="index-links">

@@ -7,7 +7,7 @@ if (isset($_POST['login-submit'])){
     $password =$_POST['pwd'];
 
     if (empty($mailuid) || empty($password)){
-        header("Location: ../login.php?error=emptyfields");
+        header("Location: ../index.php?error=emptyfields");
         exit();
     }
     else{
@@ -17,7 +17,7 @@ if (isset($_POST['login-submit'])){
 
      //check if it works in a database
      if(!mysqli_stmt_prepare($stmt,$sql)){
-        header("Location: ../login.php?error=sqlerror");
+        header("Location: ../index.php?error=sqlerror");
         exit();
      }
      else{
@@ -29,7 +29,7 @@ if (isset($_POST['login-submit'])){
             //harsh the password the user entered and check wether they match with the harshed one in the database
             $passwordCheck = password_verify($password, $row['pwdUsers']);
             if ($passwordCheck== false){
-                header("Location: ../login.php?error=wrongpassword");
+                header("Location: ../index.php?error=wrongpassword");
                 exit();
             }
             elseif($passwordCheck == true){
@@ -41,12 +41,12 @@ if (isset($_POST['login-submit'])){
             }
 
             else{
-                header("Location: ../login.php?error=wrongpassword");
+                header("Location: ../index.php?error=wrongpassword");
                 exit();
             }
         }
         else{
-            header("Location: ../login.php?error=nouser");
+            header("Location: ../index.php?error=nouser");
             exit();
         }
      }
