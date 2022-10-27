@@ -40,11 +40,12 @@
               </li>
 
               <li class="item button">
-                <a href="login.php">Log In</a>
+              <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
               </li>
 
               <li class="item button secondary">
-                <a href="signup.php">Sign Up</a>
+              <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
               </li>
 
               <li class="toggle">

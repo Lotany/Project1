@@ -1,7 +1,4 @@
 <?php include 'header.php'; ?>
-
-
-
      <!--main page-->
         <main>
             
@@ -12,6 +9,11 @@
             </div>
         </section>
     <div class="wrapper">
+
+
+<?php require 'sig-log.php'?>
+
+
     <section class="index-links">
         <a href="cases.php">
         <div class="index-boxlink-square">
