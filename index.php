@@ -72,16 +72,19 @@
         <h2>Testimonies</h2>
     <div class="container">
   <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
-  <p><span>Tony Miguel.</span> CEO Jijenge Foundation.</p>
+  <p><span>Tony Miguel.</span></p>
+  <br>
   <p>Mr Lotan saved us from a web disaster, He gets the work done.</p>
 </div>
 
 <div class="container">
   <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
-  <p><span >Rebecca Mariam.</span> Front-end Developer.</p>
+  <p><span >Rebecca Mariam.</span></p>
+  <br>
   <p>No one is better than Lotan when it comes to back-end programming</p>
 </div>
 <h2>Contact Me</h2>
+<br>
 <div class="contact" id="contact-me-id">
     
   <div style="text-align:center">
