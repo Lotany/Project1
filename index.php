@@ -74,7 +74,7 @@
   <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
   <p><span>Tony Miguel.</span></p>
   <br>
-  <p>Mr Lotan saved us from a web disaster, He gets the work done.</p>
+  <p>He is the guy for the job</p>
 </div>
 
 <div class="container">
@@ -96,7 +96,7 @@
       <img src="images/banner5.png" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form action="#">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>

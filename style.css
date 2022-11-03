@@ -409,6 +409,7 @@ input [type=text], textarea{
     background-color: #f2f2f2;
 }
 
+
 .index-links div {
     font-family: Catamaran;
     font-size: 28px;
@@ -616,6 +617,22 @@ margin-bottom: 20px;
 }
 
 
+@media screen and (max-width: 375px) {
+    
+.cases-links h2 {
+    margin-top: 65px;
+    font-family: Catamaran;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+  }
+  
+
+
 /* project detail*/
 
 .case-vid h2 {
@@ -660,8 +677,6 @@ margin-bottom: 20px;
 
 
 footer {
-    width: calc(100%);
-    padding: 40px 40px;
     background-color: #111;
     margin-top: 20px;
     overflow: hidden ;
