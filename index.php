@@ -9,8 +9,6 @@
     </div>
   </section>
   <div class="wrapper">
-
-
     <?php require 'sig-log.php' ?>
 
 
@@ -49,9 +47,7 @@
     <h2>Contact Me</h2>
     <br>
     <div class="contact" id="contact-me-id">
-
       <div style="text-align:center">
-
         <p>Swing by for a cup of coffee, or leave me a message:</p>
       </div>
       <div class="row">
