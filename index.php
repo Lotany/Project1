@@ -23,7 +23,14 @@
     }
 
     ?>
-    <div class="skills">
+    <div class="rowlr">
+      <div class="left">
+        <h2>lkkdjsflksdf</h2>
+      </div>
+
+      <div class="right">
+        <h1>frgrfgdfg</h1>
+      </div>
 
     </div>
 
