@@ -26,7 +26,7 @@
 
     ?>
     <div class="skills">
-      
+
     </div>
 
 
@@ -36,14 +36,14 @@
         <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
         <p><span>Tony Miguel.</span></p>
         <br>
-        <p>He is the guy for the job</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis a nostrum itaque iste, placeat culpa assumenda perspiciatis accusamus cum modi quaerat. Ipsam expedita deserunt est ut. Quo vero debitis aperiam.</p>
       </div>
 
       <div class="container">
         <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
         <p><span>Rebecca Mariam.</span></p>
         <br>
-        <p>No one is better than Lotan when it comes to back-end programming</p>
+        <p>No one is better than Lotan when it comes to back-end programming Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis facere aut reiciendis. Nemo excepturi, aliquid officiis vel in deleniti omnis tenetur at? Officia, vero veniam ab odit eveniet dolore?</p>
       </div>
     </section>
     <h2>Contact Me</h2>
