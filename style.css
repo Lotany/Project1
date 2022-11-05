@@ -402,23 +402,9 @@ input [type=text], textarea{
     text-shadow: 2px 2px 8px #111;
 }
 
-.index-links div {
-    margin: 16px 16px 0;
-    width: calc(100% - 32px); 
-    height: 100px;
-    background-color: #f2f2f2;
-}
 
 
-.index-links div {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #111;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 
 
 @media only screen and (min-width: 1000px){
@@ -437,30 +423,8 @@ input [type=text], textarea{
        margin: 0 auto;
     }
 
-    .index-links {
-        overflow: hidden;
-    }
+  
 
-    .index-links div {
-        margin: 20px 10px 0;
-        height: 200px;
-        background-color: #f2f2f2;
-        float: left;
-    }
-
-    .index-boxlink-square {
-        width: calc(25% - 20px) !important;
-
-    }
-
-    .index-boxlink-rectangle {
-        width: calc(50% - 20px) !important; 
-
-    }
-
-    .index-links div h3 {
-        line-height: 200px;
-    }
 
 }
 

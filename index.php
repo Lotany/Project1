@@ -1,130 +1,90 @@
 <?php include 'header.php'; ?>
-     <!--main page-->
-        <main>
-            
-        <section class="index-banner">
-            <div class="vertical-center">
-                <h2>I AM A FREELANCE SOFTWARE<br>DEVELOPER</h2>
-                <h1>With speciality in back-end development and functionality</h1>
-            </div>
-        </section>
-    <div class="wrapper">
+<!--main page-->
+<main>
+
+  <section class="index-banner">
+    <div class="vertical-center">
+      <h2>I AM A SOFTWARE<br>DEVELOPER</h2>
+      <h1>With speciality in back-end development and functionality</h1>
+    </div>
+  </section>
+  <div class="wrapper">
 
 
-<?php require 'sig-log.php'?>
-
-   
-            <!--display an error code-->
-            <?php
-            if (isset($_GET['error'])){
-                if($_GET['error'] == "wrongpassword"){
-                    echo '<p>wrong password!</p>';
-                }
-                elseif(['error'] == "nouser"){
-                  echo '<p>No user found</p>';
-                }
-      
-          }
-
-            ?>
+    <?php require 'sig-log.php' ?>
 
 
-    <section class="index-links">
-        <a href="cases.php">
-        <div class="index-boxlink-square">
-            <h3>Projects</h3>
-        </div>
-        </a>
-        
-        <a href="#">
-        <div class="index-boxlink-rectangle">
-            <h3>Portfolio</h3>
-        </div>
-        </a>
+    <!--display an error code-->
+    <?php
+    if (isset($_GET['error'])) {
+      if ($_GET['error'] == "wrongpassword") {
+        echo '<p>wrong password!</p>';
+      } elseif (['error'] == "nouser") {
+        echo '<p>No user found</p>';
+      }
+    }
 
-        <a href="#">
-        <div class="index-boxlink-square">
-            <h3>Able</h3>
-        </div>
-        </a>
+    ?>
 
-        <a href="#">
-        <div class="index-boxlink-rectangle">
-            <h3>Youtube channnel</h3>
-        </div>
-        </a>
 
-        <a href="#">
-        <div class="index-boxlink-square">
-            <h3>Contact</h3>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="index-boxlink-square">
-            <h3>About</h3>
-        </div>
-        </a>
-
-    </section>
-    
     <section class="testimonials">
-        <h2>Testimonies</h2>
-    <div class="container">
-  <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
-  <p><span>Tony Miguel.</span></p>
-  <br>
-  <p>He is the guy for the job</p>
-</div>
+      <h2>Testimonies</h2>
+      <div class="container">
+        <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
+        <p><span>Tony Miguel.</span></p>
+        <br>
+        <p>He is the guy for the job</p>
+      </div>
 
-<div class="container">
-  <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
-  <p><span >Rebecca Mariam.</span></p>
-  <br>
-  <p>No one is better than Lotan when it comes to back-end programming</p>
-</div>
-<h2>Contact Me</h2>
-<br>
-<div class="contact" id="contact-me-id">
-    
-  <div style="text-align:center">
- 
-    <p>Swing by for a cup of coffee, or leave me a message:</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="images/banner5.png" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="#">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Kenya</option>
-          <option value="canada">Tanzania</option>
-          <option value="usa">Uganda</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
+      <div class="container">
+        <img src="images/banner8.jpg" alt="Avatar" style="width:90px">
+        <p><span>Rebecca Mariam.</span></p>
+        <br>
+        <p>No one is better than Lotan when it comes to back-end programming</p>
+      </div>
+      
+      <h2>Contact Me</h2>
+      <br>
+      <div class="contact" id="contact-me-id">
+
+        <div style="text-align:center">
+
+          <p>Swing by for a cup of coffee, or leave me a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images/banner5.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="#">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Kenya</option>
+                <option value="canada">Tanzania</option>
+                <option value="usa">Uganda</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
 
 
 
 
-</div>
+  </div>
 
 
-    
-    </main>
-   
 
-    <?php include 'footer.php';?>
+</main>
+
+
+<?php include 'footer.php'; ?>
