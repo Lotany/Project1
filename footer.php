@@ -10,7 +10,7 @@
 
             <li><a href="cases.html">Contact</a></li>
         </ul>
-
+        
         <ul class="footer-links-cases">
             <li><p>Latest Projects</p></li>
             <li><a href="#">LOTAN - WEB DEVELOPMENT</a></li>
