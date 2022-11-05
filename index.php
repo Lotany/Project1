@@ -25,6 +25,9 @@
     }
 
     ?>
+    <div class="skills">
+      
+    </div>
 
 
     <section class="testimonials">
@@ -42,39 +45,39 @@
         <br>
         <p>No one is better than Lotan when it comes to back-end programming</p>
       </div>
-      
-      <h2>Contact Me</h2>
-      <br>
-      <div class="contact" id="contact-me-id">
+    </section>
+    <h2>Contact Me</h2>
+    <br>
+    <div class="contact" id="contact-me-id">
 
-        <div style="text-align:center">
+      <div style="text-align:center">
 
-          <p>Swing by for a cup of coffee, or leave me a message:</p>
+        <p>Swing by for a cup of coffee, or leave me a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/banner5.png" style="width:100%">
         </div>
-        <div class="row">
-          <div class="column">
-            <img src="images/banner5.png" style="width:100%">
-          </div>
-          <div class="column">
-            <form action="#">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Kenya</option>
-                <option value="canada">Tanzania</option>
-                <option value="usa">Uganda</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
+        <div class="column">
+          <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Kenya</option>
+              <option value="canada">Tanzania</option>
+              <option value="usa">Uganda</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+
 
 
 
