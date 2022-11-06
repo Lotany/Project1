@@ -25,6 +25,10 @@
     ?>
     <div class="rowlr">
 
+    <div class="left">
+
+
+    
     <section class="testimonials">
       <h2>Testimonies</h2>
       <div class="container">
@@ -41,9 +45,14 @@
         <p>No one is better than Lotan when it comes to back-end programming Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis facere aut reiciendis. Nemo excepturi, aliquid officiis vel in deleniti omnis tenetur at? Officia, vero veniam ab odit eveniet dolore?</p>
       </div>
     </section>
-    <h2>Contact Me</h2>
-    <br>
+
+
+
+    </div>
+
+    <div class="right">
     <div class="contact" id="contact-me-id">
+    <h2>Contact Me</h2>
       <div style="text-align:center">
         <p>Swing by for a cup of coffee, or leave me a message:</p>
       </div>
@@ -71,13 +80,10 @@
       </div>
     </div>
 
+    </div>
 
-
-
-
-
+    </div>
   </div>
-
 
 
 </main>
