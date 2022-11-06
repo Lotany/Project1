@@ -27,6 +27,11 @@
 
     <div class="left">
 
+    <div class="skills">
+      <h2>Skills</h2>
+    </div>
+
+
 
     
     <section class="testimonials">
