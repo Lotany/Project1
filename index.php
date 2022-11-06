@@ -24,13 +24,65 @@
 
     ?>
     <div class="rowlr">
-      <div class="left">
-        <h2>lkkdjsflksdf</h2>
+
+    <div class="container-1">
+      <h2 class="my-skills">My Skills</h2>
+      <div class="bar-1">
+        <div class="title">HTML5</div>
+        <div class="bar" data-width="65%">
+          <div class="bar-inner">
+
+          </div>
+          <div class="bar-percent">90%</div>
+        </div>
       </div>
 
-      <div class="right">
-        <h1>frgrfgdfg</h1>
+      <div class="bar-1">
+        <div class="title" style="color: #084c61;">CSS</div>
+        <div class="bar" data-width="85%">
+          <div class="bar-inner" style="background: #084c61;">
+        </div>
+        <div class="bar-percent">85%</div>
+        </div>
       </div>
+
+      <div class="bar-1">
+        <div class="title" style="color: #525252;">JAVASCRIPT</div>
+        <div class="bar" data-width="85%">
+          <div class="bar-inner" style="background: #525252;">
+        </div>
+        <div class="bar-percent">85%</div>
+        </div>
+      </div>
+
+      <div class="bar-1">
+        <div class="title" style="color: #525252;">PHP</div>
+        <div class="bar" data-width="80%">
+          <div class="bar-inner" style="background: #525252;">
+        </div>
+        <div class="bar-percent">80%</div>
+        </div>
+      </div>
+
+      <div class="bar-1">
+        <div class="title" style="color: #525252;">SQL</div>
+        <div class="bar" data-width="90%">
+          <div class="bar-inner" style="background: #525252;">
+        </div>
+        <div class="bar-percent">90%</div>
+        </div>
+      </div>
+
+
+      <div class="bar-1">
+        <div class="title" style="color: #525252;">PYTHON</div>
+        <div class="bar" data-width="70%">
+          <div class="bar-inner" style="background: #525252;">
+        </div>
+        <div class="bar-percent">70%</div>
+        </div>
+      </div>
+
 
     </div>
 
