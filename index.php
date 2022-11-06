@@ -46,7 +46,7 @@
               <Span>90%</Span>
             </div>
             <div class="bar">
-              <div id="ccs-bar"></div>
+              <div id="css-bar"></div>
             </div>
           </div>
 
@@ -115,12 +115,19 @@
           </div>
 
 
-
         </div>
 
 
 
 
+        
+
+
+
+      </div>
+
+      <div class="right">
+        <!-- testimonies section -->
         <section class="testimonials">
           <h2>Testimonies</h2>
           <div class="container">
@@ -138,14 +145,10 @@
           </div>
         </section>
 
-
-
-      </div>
-
-      <div class="right">
+        <!--contact section-->
         <div class="contact" id="contact-me-id">
           <h2>Contact Me</h2>
-          <div style="text-align:center">
+          <div style="text-align:center" class="pad">
             <p>Swing by for a cup of coffee, or leave me a message:</p>
           </div>
           <div class="row">
