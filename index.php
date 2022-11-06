@@ -28,14 +28,94 @@
       <div class="left">
 
         <div class="skills">
-          <h2>Skills</h2>
-          <div class="details">
-            <span>HTML5</span>
-            <Span>95%</Span>
+        <h2>Skills</h2>
+
+          <div class="skill">
+            <div class="details">
+              <span>HTML5</span>
+              <Span>95%</Span>
+            </div>
+            <div class="bar">
+              <div id="html-bar"></div>
+            </div>
           </div>
-          <div class="bar">
-            <div id="html-bar"></div>
+
+          <div class="skill">
+            <div class="details">
+              <span>CSS</span>
+              <Span>90%</Span>
+            </div>
+            <div class="bar">
+              <div id="ccs-bar"></div>
+            </div>
           </div>
+
+
+          <div class="skill">
+            <div class="details">
+              <span>JAVASCRIPT</span>
+              <Span>72%</Span>
+            </div>
+            <div class="bar">
+              <div id="js-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="details">
+              <span>PHP</span>
+              <Span>89%</Span>
+            </div>
+            <div class="bar">
+              <div id="php-bar"></div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <div class="details">
+              <span>DART</span>
+              <Span>65%</Span>
+            </div>
+            <div class="bar">
+              <div id="dart-bar"></div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <div class="details">
+              <span>FLUTTER</span>
+              <Span>65%</Span>
+            </div>
+            <div class="bar">
+              <div id="flut-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="details">
+              <span>PYTHON</span>
+              <Span>59%</Span>
+            </div>
+            <div class="bar">
+              <div id="python-bar"></div>
+            </div>
+          </div>
+
+
+          <div class="skill">
+            <div class="details">
+              <span>SQL</span>
+              <Span>99%</Span>
+            </div>
+            <div class="bar">
+              <div id="sql-bar"></div>
+            </div>
+          </div>
+
+
+
         </div>
 
 
