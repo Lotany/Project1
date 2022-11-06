@@ -761,11 +761,10 @@ margin-right: 10px;
 }
 
 
-.cases-link p {
-    padding-top: 45%;
-    font-family: Catamaran;
-    font-weight: 600;
-    color: #111;
+.cases-link h3 {
+  padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 
