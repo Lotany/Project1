@@ -115,13 +115,19 @@
           </div>
         </div>
 
+        <!--projects box -->
+        <div class="project">
+          <h2>PROJECTS</h2>
+          <div class="row">
+            <div class="column">
+              <img src="" style="width:100%">
+            </div>
 
-        <div class="projects">
-          <h2>Projects</h2>
-          <img src="images/banner5.png" alt="" width="50%" height="50%">
-          <a href="cases.php">Check my projects</a>
+            <div style="text-align:center" class="pad">
+            <p><a href="cases.php">SEE MORE</a></p>
+          </div>
+          </div>
         </div>
-
 
         
 

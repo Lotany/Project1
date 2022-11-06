@@ -578,6 +578,22 @@ input [type=text], textarea{
   }
 }
 
+/*projects box*/
+.project {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.project h2 {
+  padding-top: 20px;
+text-align: center;
+}
+
+.project .pad {
+  padding-top: 20px;
+}
+
 
 /* Style the container with a rounded border, grey background and some padding and margin */
 
