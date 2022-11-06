@@ -34,7 +34,13 @@
             
         </div>
         </footer>
-
+<script>
+    $(".bar").each(function(){
+        $(this).find(".bar-inner").animate({
+            width:$(this).attr("data-width")
+        },2000)
+    });
+</script>
     <script src="script.js"></script>
     </body>
 </html>

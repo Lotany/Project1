@@ -426,6 +426,45 @@ input [type=text], textarea{
 }
 
 /*left container*/
+.container-1 h2 {
+   color: #0080ff;
+}
+
+.container-1 title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.container-1 .bar {
+  width: 90px;
+  height: 35px;
+  background: rgb(49, 46, 46);
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1, .my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
+
+
 
 
 /* Style the container with a rounded border, grey background and some padding and margin */
