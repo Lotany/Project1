@@ -844,9 +844,6 @@ padding-right: 20px;
     font-weight: 600;
     line-height: 24px;
     color: #111;
-    text-transform: uppercase;
-    column-count: 3;
-    column-gap: 30px;
 }
 
 /*footer*/
