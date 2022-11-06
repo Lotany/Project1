@@ -7,22 +7,18 @@
 
         <section class="cases-links">
             <?php require 'sig-log.php' ?>
-
             <h2>Projects</h2>
 
             <a href="detail.php">
 
 
                 <div class="cases-link">
-                    <h2>PROJECTS</h2>
+                    <h3>Project 1</h3>
                     <div class="row">
                         <div class="column">
                             <img src="images/banner5.png" style="width:100%">
                         </div>
-
-                        <div style="text-align:center" class="pad">
                             <p>Swing by for a cup of coffee, or leave me a message:</p>
-                        </div>
                     </div>
                 </div>
             </a>

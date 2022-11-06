@@ -652,6 +652,8 @@ text-align: center;
   }
   
   
+
+
   
 * {
     box-sizing: border-box;
@@ -679,7 +681,7 @@ text-align: center;
     background-color: #45a049;
   }
   
-  /* Style the container/contact section */
+  /* Style box contact section */
   .contact {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -762,10 +764,8 @@ margin-right: 10px;
 .cases-link p {
     padding-top: 45%;
     font-family: Catamaran;
-    font-size: 16px;
     font-weight: 600;
     color: #111;
-    text-transform: uppercase;
 }
 
 
