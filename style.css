@@ -707,6 +707,9 @@ input [type=text], textarea{
   
 
 /*cases*/
+.cases {
+  margin-top: 20px;
+}
 
 .cases-links {
 overflow: hidden;
@@ -721,6 +724,7 @@ margin-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
     color: #111;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -738,13 +742,12 @@ margin-right: 10px;
 }
 
 
-.cases-links .cases-link p {
+.cases-link p {
     padding-top: 45%;
     font-family: Catamaran;
     font-size: 16px;
     font-weight: 600;
     color: #111;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -752,7 +755,6 @@ margin-right: 10px;
 @media screen and (max-width: 375px) {
     
 .cases-links h2 {
-    margin-top: 65px;
     font-family: Catamaran;
     font-size: 20px;
     font-weight: 600;

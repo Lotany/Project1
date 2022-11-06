@@ -118,7 +118,7 @@
 
         <div class="projects">
           <h2>Projects</h2>
-          <img src="images/banner5.png" alt="" height="100%">
+          <img src="images/banner5.png" alt="" width="50%" height="50%">
           <a href="cases.php">Check my projects</a>
         </div>
 
