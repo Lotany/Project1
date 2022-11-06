@@ -113,11 +113,14 @@
               <div id="sql-bar"></div>
             </div>
           </div>
-
-
         </div>
 
 
+        <div class="projects">
+          <h2>Projects</h2>
+          <img src="images/banner5.png" alt="" height="100%">
+          <a href="cases.php">Check my projects</a>
+        </div>
 
 
         

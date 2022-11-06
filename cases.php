@@ -3,12 +3,9 @@
         <!--Main-->
     <main>
 
+<div class="cases">
 
-
-        <section class="cases-links">
-            
-            <div class="wrapper">
-
+<section class="cases-links">
             <?php require 'sig-log.php'?>
             
                 <h2>Projects</h2>
@@ -61,10 +58,13 @@
                         <p>Project 9</p>
                     </div>
                 </a>
-
-            </div>
-
         </section>
+
+        <section class="cases-links1">
+       
+        </section>
+
+        </div>
     </main>
 
     <!--footer -->
