@@ -496,6 +496,15 @@ input [type=text], textarea{
   margin-bottom: 30px;
 }
 
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+  100%{
+    width: 90%;
+  }
+}
+
 /* Style the container with a rounded border, grey background and some padding and margin */
 
 .testimonials {
