@@ -1,10 +1,4 @@
-
-
-
-
-
-
-   <div class="wrap-content">
+<div class="wrap-content">
       <h1>Login</h1>
       <?php
          if (isset($_SESSION['userId'])){
