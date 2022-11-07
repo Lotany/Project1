@@ -19,6 +19,21 @@ Create table banner(
     dateposted timestamp
 );
 
+Create table project(
+    id int(11) not null auto_increment primary key,
+    title varchar(100) not null,
+    image varchar(200) not null,
+    content varchar(400) not null,
+    link varchar(100) not null
+);
+
+Create table services(
+    id int(11) not null auto_increment primary key,
+    title varchar(100) not null,
+    image varchar(200) not null,
+    content varchar(400) not null,
+    link varchar(100) not null
+);
 
 Create table messages(
     id int(11) not null auto_increment primary key,
