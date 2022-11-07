@@ -32,3 +32,12 @@ body{
     transition: 0.6s ease;
     transition-property: left;
 }
+
+
+.side-bar::-webkit-scrollbar{
+    width: 0px;
+}
+
+.side-bar .active {
+    left: 0;
+}
