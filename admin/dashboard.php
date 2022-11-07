@@ -31,6 +31,19 @@
          <div class="item">
             <a href="">Projects</a>
          </div>
+
+         <div class="item">
+            <a href="">Testimonies</a>
+         </div>
+
+
+         <div class="item">
+            <a href="">Messages</a>
+         </div>
+
+         <div class="item">
+            <a href="">Services</a>
+         </div>
       </div>
 
    </div>
