@@ -43,7 +43,7 @@ body{
 }
 
 header {
-    background: #e3e5e8;
+    background: #33363a;
 }
 
 img {
@@ -61,4 +61,13 @@ h1 {
     padding-bottom: 13px;
     font-family: sans-serif;
     letter-spacing: 2px;
+}
+
+.close-btn {
+    position: absolute;
+    color: #fff;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
 }
