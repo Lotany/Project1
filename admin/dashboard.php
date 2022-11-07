@@ -20,6 +20,18 @@
          <h1>Admin Board</h1>
       </header>
 
+      <div class="menu">
+         <div class="item">
+            <a href="dashboard.php"><i class="fas fa-desktop"></i>Dashboard</a>
+         </div>
+
+         <div class="item"><a href="">Banner</a></div>
+
+         <div class="item">
+            <a href="">Projects</a>
+         </div>
+      </div>
+
    </div>
 
 
