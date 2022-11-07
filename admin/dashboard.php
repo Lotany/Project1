@@ -19,7 +19,7 @@
       <div class="close-btn">
          <i class="fas fa-times"></i>
       </div>
-      <img src="../images/banner8.jpg" alt="">
+      <img src="" alt="">
       <h1>Admin Board</h1>
    </header>
 
