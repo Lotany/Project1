@@ -1,7 +1,7 @@
 
     <footer>
         <ul class="footer-main-links">
-            <li><a href="cases.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="cases.php">Projects</a></li>
 
             <li><a href="cases.html">Portfolio</a></li>
