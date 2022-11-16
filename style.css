@@ -741,7 +741,7 @@ margin-bottom: 20px;
 }
 
 
-.cases-links h2 {
+.cases-links, .cases-links1 h2 {
     font-family: Catamaran;
     font-size: 20px;
     font-weight: 600;
@@ -802,7 +802,7 @@ padding-right: 20px;
   }
 
   @media screen and (max-width:800px) {
-    .cases-links{
+    .cases-links, .cases-links1{
         width: 100%;
         padding: 0;
         padding-right: 20px;

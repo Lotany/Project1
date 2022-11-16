@@ -6,7 +6,6 @@
     <div class="cases">
 
         <section class="cases-links">
-            <?php require 'sig-log.php' ?>
             <h2>Projects</h2>
 
             <a href="detail.php">
@@ -36,9 +35,7 @@
         </section>
 
         <section class="cases-links1">
-            <?php require 'sig-log.php' ?>
-            <h2>Projects</h2>
-
+        <h2>Projects</h2>
             <a href="detail.php">
                 <div class="cases-link">
                     <h3>School management system</h3>
