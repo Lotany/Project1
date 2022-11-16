@@ -120,7 +120,7 @@
           <h2>PROJECTS</h2>
           <div class="row">
             <div class="column">
-              <img src="images/banner5.png" style="width:100%">
+              <img src="images/pro4.PNG" style="width:100%">
             </div>
 
             <div style="text-align:center" class="pad">
