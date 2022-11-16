@@ -816,8 +816,12 @@ padding-right: 20px;
 
 
 /* project detail*/
+.case-vid {
+  padding-top: 35px;
+}
+
 .case-vid h2 {
-    margin-top: 65px;
+    margin-top: 35px;
     font-family: Catamaran;
     font-size: 20px;
     font-weight: 600;
@@ -841,6 +845,8 @@ padding-right: 20px;
     color: #111;
     text-transform: uppercase;
     padding-bottom: 20px ;
+    padding-right: 20px;
+    padding-left: 20px;
 }
  
 .case-vid article div p{
@@ -848,20 +854,14 @@ padding-right: 20px;
     font-size: 16px;
     line-height: 24px;
     color: #111;
-}
-
-@media screen and (max-width:800px) {
-  .case-vid article h3{
-    padding-left: 20px;
-  }
-
-  .case-vid article div p{
     padding-right: 20px;
     padding-left: 20px;
-  }
-
 }
-
+@media only screen and (min-width: 1000px){
+  .case-vid h2 {
+    margin-top: 55px;
+  }
+}
 
 
 
