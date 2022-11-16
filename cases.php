@@ -12,22 +12,16 @@
             <a href="detail.php">
                 <div class="cases-link">
                     <h3>Mnazi</h3>
-                    <div class="row">
-                        <div class="column">
+
                             <img src="images/banner5.png" style="width:100%">
-                        </div>
-                    </div>
                 </div>
             </a>
 
             <a href="detail.php">
                 <div class="cases-link">
                     <h3>Farm Management</h3>
-                    <div class="row">
-                        <div class="column">
+
                             <img src="images/banner5.png" style="width:100%">
-                        </div>
-                    </div>
                 </div>
             </a>
 
@@ -35,11 +29,8 @@
             <a href="detail.php">
                 <div class="cases-link">
                     <h3>Riz bakers</h3>
-                    <div class="row">
-                        <div class="column">
                             <img src="images/banner5.png" style="width:100%">
-                        </div>
-                    </div>
+                
                 </div>
             </a>
 
