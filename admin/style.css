@@ -230,10 +230,41 @@ a {
    margin-right: 30px;
 }
 
-.pro,.test,.message,.service,.banner h2 {
+.page-title {
     text-align: center;
 }
 
 .test,.message,.service,.banner {
     margin-top: 10px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
+  .edit {
+    color: green;
+  }
+  
+  .delete {
+    color: red;
+  }
+  
+  .publish {
+    color: blue;
+  }
+  
+  .edit:hover,
+  .delete:hover,
+  .publish:hover {
+    text-decoration: underline;
+  }
