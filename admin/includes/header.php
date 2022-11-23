@@ -12,14 +12,14 @@
                 <a href="dashboard.php">Admin</a>
             </li>
             <li class="item">
-                <a href="add/project.php">Projects</a>
+                <a href="../add/project.php">Projects</a>
             </li>
             <li class="item">
-                <a href="add/testimonial.php">Testimonies</a>
+                <a href="../add/testimonial.php">Testimonies</a>
             </li>
 
             <li class="item">
-                <a href="add/messages.php">Messages</a>
+                <a href="../add/messages.php">Messages</a>
             </li>
 
 
@@ -28,11 +28,11 @@
             </li>
 
             <li class="item">
-                <a href="add/banner.php">Banner</a>
+                <a href="../add/banner.php">Banner</a>
             </li>
 
             <li class="item">
-                <a href="func/logout.php">Logout</a>
+                <a href="../func/logout.php">Logout</a>
             </li>
 
             <li class="toggle">
