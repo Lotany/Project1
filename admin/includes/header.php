@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Daashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 

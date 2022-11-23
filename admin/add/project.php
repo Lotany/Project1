@@ -1,1 +1,1 @@
-<?php include '../header.php';
+<?php require '../includes/header.php';
