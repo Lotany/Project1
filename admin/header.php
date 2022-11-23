@@ -32,6 +32,10 @@
                 <a href="#">Banner</a>
             </li>
 
+            <li class="item">
+                <a href="#">Logout</a>
+            </li>
+
             <li class="toggle">
                 <a href="#"><i class="fas fa-bars"></i></a>
             </li>

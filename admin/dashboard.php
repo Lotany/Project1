@@ -1,12 +1,10 @@
 <?php require 'header.php' ?>
-
 <div class="wrapper">
-   <div class="top"> <a href="#">Logout</a></div>
-
+   <div class="pro">
+   <h2>Projects</h2>
    
+   </div>
+
 </div>
-
-
-   
 </body>
 </html>
