@@ -234,8 +234,8 @@ a {
     text-align: center;
 }
 
-.test,.message,.service,.banner {
-    margin-top: 10px;
+.test,.message,.service,.banner,.pro{
+    margin-top: 50px;
 }
 
 table {
