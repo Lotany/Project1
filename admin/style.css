@@ -225,7 +225,7 @@ a {
 /*main body*/
 
 .wrapper {
-   padding-top: 80px;
+   padding-top: 60px;
    margin-left: 30px;
    margin-right: 30px;
 }
@@ -234,9 +234,6 @@ a {
     text-align: center;
 }
 
-.test,.message,.service,.banner,.pro{
-    margin-top: 50px;
-}
 
 table {
     width: 100%;
