@@ -1,4 +1,4 @@
-<?php require 'includes/header.php' ?>
+<?php require 'header.php' ?>
 <div class="wrapper">
    <div class="pro">
       <h2 class="page-title">Manage Projects</h2>

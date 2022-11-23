@@ -22,11 +22,6 @@
                 <a href="./add/messages.php">Messages</a>
             </li>
 
-
-            <li class="item">
-                <a href="#">Services</a>
-            </li>
-
             <li class="item">
                 <a href="./add/banner.php">Banner</a>
             </li>
