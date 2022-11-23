@@ -4,8 +4,8 @@
       <h2 class="page-title">Manage Projects</h2>
       <table>
          <thead>
-            <th>SN</th>
-            <th>Title</th>
+            <th>ID</th>
+            <th>Description</th>
             <th>Author</th>
             <th colspan="3">Action</th>
          </thead>
