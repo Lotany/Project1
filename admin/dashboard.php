@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Daashboard</title>
-      <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php require 'header.php' ?>
    
 </body>
 </html>
