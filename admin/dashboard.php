@@ -23,7 +23,7 @@
    </div>
 
    <div class="test">
-   <h2 class="page-title">Manage Testimonials</h2>
+      <h2 class="page-title">Manage Testimonials</h2>
       <table>
          <thead>
             <th>ID</th>
@@ -45,7 +45,7 @@
    </div>
 
    <div class="message">
-   <h2 class="page-title">Manage Messages</h2>
+      <h2 class="page-title">Manage Messages</h2>
       <table>
          <thead>
             <th>Contact No</th>
@@ -66,7 +66,7 @@
    </div>
 
    <div class="banner">
-   <h2 class="page-title">Manage Banner Text</h2>
+      <h2 class="page-title">Manage Banner Text</h2>
       <table>
          <thead>
             <th>Title</th>
